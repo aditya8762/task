@@ -102,14 +102,13 @@ header .navbar {
 }
 .container .card {
   position: relative;
-  border: solid 4px red;
+  border: solid 3px #ff93f2;
   width: 250px;
   height: auto;
-  background: linear-gradient(#afe4dd, #ff93f2, #0affe6);
-  animation: rotate 3s linear infinite;
+  animation: rotate 3s linear infinite alternate;
   padding-bottom: 1rem;
   border-radius: 1.2rem;
-  box-shadow: rgba(6, 107, 133, 0.65) 0px 5px 8px;
+  box-shadow: #ff93f2 5px 10px 5px;
 }
 .container .card:hover {
   transform: rotate3d(1, 3, 3, 5deg);
